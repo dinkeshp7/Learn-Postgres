@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3001;
 app.use(express.json());
 
-const pgClient = new Client("postgresql://Testing_owner:npg_5B0CnoxhluMA@ep-delicate-resonance-a86kg228-pooler.eastus2.azure.neon.tech/Testing?sslmode=require");
+const pgClient = new Client("put you neon.tech url");
 pgClient.connect();
 
 // or
